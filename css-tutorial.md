@@ -651,11 +651,84 @@ border: 1px solid black;
 ### ผลการทดลอง
 ```html
 [วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+</style>
+</head>
+<body>
+    <div class="stats-container">
+        <div class="stat-box">
+            <div class="stat-number">50,000</div>
+            <div class="stat-label">ผู้ใช้งาน</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">200k</div>
+            <div class="stat-label">ยอดขาย</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">94%</div>
+            <div class="stat-label">ความพึงพอใจ</div>
+        </div>
+       
+    </div>
+</body>
+</html>
 ```
 ```css
 [วางโค้ด CSS ที่นี่]
+.stats-container {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+   
+    .stat-box {
+        flex: 1;
+        margin: 0 15px;
+        padding: 2rem;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+   
+    .stat-number {
+        font-size: 4rem;
+        font-weight: bold;
+        color: hsl(199, 87%, 73%);
+        margin-bottom: 1rem;
+    }
+   
+    .stat-label {
+        font-size: 1.5rem;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+   
+    .stat-box:hover {
+        transform: scale(1.05);
+    }
+   
+    @media (max-width: 768px) {
+        .stats-container {
+            flex-direction: column;
+        }
+   
+        .stat-box {
+            margin: 1rem 0;
+        }
+    }
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+<img width="1470" alt="Screenshot 2568-03-07 at 15 20 08" src="https://github.com/user-attachments/assets/417ed12b-5283-46ff-8c45-65b3a73230a7" />
 
 [](#การทดลองที่-5-การจัดการข้อความและฟอนต์)
 ## การทดลองที่ 5: การจัดการข้อความและฟอนต์
