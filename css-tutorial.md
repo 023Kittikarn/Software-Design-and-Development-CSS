@@ -233,7 +233,6 @@ div > p {
 ### ผลการทดลอง
 ```html
 [วางโค้ดที่นี่]
-```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -241,7 +240,7 @@ div > p {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books</title>
 
-    <!-- css -->
+    <!-- ลิงก์ไปยังไฟล์ CSS -->
     <link rel="stylesheet" href="../../basic_css/style1.css">
 </head>
 <body>
@@ -257,7 +256,7 @@ div > p {
         <!-- Product 1 -->
         <figure>
             <a href="image/product/product01.png">
-                <img src="image/product/product01.png" alt="หมึกทาโกะ" width="200"> 
+                <img src="image/product/product01.png" alt="หมึกทาโกะ" class="product-img"> 
             </a>
             <figcaption>
                 <p><strong>TITLE:</strong> หมึกทาโกะ</p>
@@ -268,7 +267,7 @@ div > p {
         <!-- Product 2 -->
         <figure>
             <a href="image/product/product02.jpeg">
-                <img src="image/product/product02.jpeg" alt="หมึกกล้วย" width="200"> 
+                <img src="image/product/product02.jpeg" alt="หมึกกล้วย" class="product-img"> 
             </a>
             <figcaption>
                 <p><strong>TITLE:</strong> หมึกกล้วย</p>
@@ -279,7 +278,7 @@ div > p {
         <!-- Product 3 -->
         <figure>
             <a href="image/product/product03.jpg">
-                <img src="image/product/product03.jpg" alt="หมึกสาย" width="200"> 
+                <img src="image/product/product03.jpg" alt="หมึกสาย" class="product-img"> 
             </a>
             <figcaption>
                 <p><strong>TITLE:</strong> หมึกสาย</p>
@@ -290,7 +289,7 @@ div > p {
         <!-- Product 4 -->
         <figure>
             <a href="image/product/product05.jpg">
-                <img src="image/product/product05.jpg" alt="หมึกศอก" width="200"> 
+                <img src="image/product/product05.jpg" alt="หมึกศอก" class="product-img"> 
             </a>
             <figcaption>
                 <p><strong>TITLE:</strong> หมึกศอก</p>
@@ -301,7 +300,7 @@ div > p {
         <!-- Product 5 -->
         <figure>
             <a href="image/product/product04.jpg">
-                <img src="image/product/product04.jpg" alt="หมึกกระดอง" width="200"> 
+                <img src="image/product/product04.jpg" alt="หมึกกระดอง" class="product-img"> 
             </a>
             <figcaption>
                 <p><strong>TITLE:</strong> หมึกกระดอง</p>
@@ -313,6 +312,9 @@ div > p {
     <a href="#nav" class="button">กลับด้านบน</a>
 </body>
 </html>
+
+```
+
 
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
 <img width="717" alt="Screenshot 2568-03-07 at 14 32 20" src="https://github.com/user-attachments/assets/734ff2d6-0f1e-420e-967c-42ed2fcea9cf" />
