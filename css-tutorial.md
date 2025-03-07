@@ -234,7 +234,92 @@ div > p {
 ```html
 [วางโค้ดที่นี่]
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../basic_css/style1.css">
+</head>
+<body>
+    <nav id="nav">
+        <img src="./image/logo.png" alt="logo" class="logo">
+        <a href="index.html" class="button">Home</a>
+        <a href="pages/about.html" class="button">About</a>
+        <a href="pages/contact.html" class="button">Contact Us</a>
+    </nav>
+
+    <h1>Gallery</h1>
+    <section>
+        <!-- Product 1 -->
+        <figure>
+            <a href="image/product/product01.png">
+                <img src="image/product/product01.png" alt="หมึกทาโกะ" width="200"> 
+            </a>
+            <figcaption>
+                <p><strong>TITLE:</strong> หมึกทาโกะ</p>
+                <p><strong>PRICE:</strong> โลละ 1,299 บาท</p>
+            </figcaption>
+        </figure>
+
+        <!-- Product 2 -->
+        <figure>
+            <a href="image/product/product02.jpeg">
+                <img src="image/product/product02.jpeg" alt="หมึกกล้วย" width="200"> 
+            </a>
+            <figcaption>
+                <p><strong>TITLE:</strong> หมึกกล้วย</p>
+                <p><strong>PRICE:</strong> โลละ 450 บาท</p>
+            </figcaption>
+        </figure>
+
+        <!-- Product 3 -->
+        <figure>
+            <a href="image/product/product03.jpg">
+                <img src="image/product/product03.jpg" alt="หมึกสาย" width="200"> 
+            </a>
+            <figcaption>
+                <p><strong>TITLE:</strong> หมึกสาย</p>
+                <p><strong>PRICE:</strong> $12.99 / 420 THB</p>
+            </figcaption>
+        </figure>
+
+        <!-- Product 4 -->
+        <figure>
+            <a href="image/product/product05.jpg">
+                <img src="image/product/product05.jpg" alt="หมึกศอก" width="200"> 
+            </a>
+            <figcaption>
+                <p><strong>TITLE:</strong> หมึกศอก</p>
+                <p><strong>PRICE:</strong> โลละ 350 บาท</p>
+            </figcaption>
+        </figure>
+
+        <!-- Product 5 -->
+        <figure>
+            <a href="image/product/product04.jpg">
+                <img src="image/product/product04.jpg" alt="หมึกกระดอง" width="200"> 
+            </a>
+            <figcaption>
+                <p><strong>TITLE:</strong> หมึกกระดอง</p>
+                <p><strong>PRICE:</strong> โลละ 420 บาท</p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <a href="#nav" class="button">กลับด้านบน</a>
+</body>
+</html>
+
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+<img width="717" alt="Screenshot 2568-03-07 at 14 32 20" src="https://github.com/user-attachments/assets/734ff2d6-0f1e-420e-967c-42ed2fcea9cf" />
+<img width="687" alt="Screenshot 2568-03-07 at 14 32 32" src="https://github.com/user-attachments/assets/924fde39-257f-4273-b85b-6492a48023d4" />
+<img width="618" alt="Screenshot 2568-03-07 at 14 32 38" src="https://github.com/user-attachments/assets/36aec656-27a3-4566-8a05-27104dd8fe6c" />
+
+
 
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)
