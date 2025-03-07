@@ -426,8 +426,136 @@ background-size: cover;
 ### ผลการทดลอง
 ```html
 [วางโค้ดที่นี่]
-```
+`
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .product-card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px #49db0a;
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: hsl(0, 82%, 56%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-button {
+    display: block;
+    background: linear-gradient(to right, hwb(254 53% 5% / 0.54), hsl(212, 66%, 81%));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.product-button:hover {
+    background: linear-gradient(to right, hwb(254 53% 5% / 0.54), hsl(212, 66%, 81%));
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    </style>
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Cards</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="container">
+            <div class="product-card">
+                <div class="product-image" style="background-image: url('image/product/product01.png');"></div>
+                <div class="product-info">
+                    <h2 class="product-title">หมึกทาโกะ</h2>
+                    <p class="product-price">฿ 1,299</p>
+                    <p class="product-description">ราคาอาจเปลี่ยนแปลงตามน้ำหนักของสินค้า</p>
+                    <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image" style="background-image: url('image/product/product02.jpeg');"></div>
+                <div class="product-info">
+                    <h2 class="product-title">หมึกกล้วย</h2>
+                    <p class="product-price">฿ 450</p>
+                    <p class="product-description">ราคาอาจเปลี่ยนแปลงตามน้ำหนักของสินค้า</p>
+                    <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image" style="background-image: url('image/product/product03.jpg');"></div>
+                <div class="product-info">
+                    <h2 class="product-title">หมึกสาย</h2>
+                    <p class="product-price">฿ 250</p>
+                    <p class="product-description">ราคาอาจเปลี่ยนแปลงตามน้ำหนักของสินค้า</p>
+                    <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image" style="background-image: url('image/product/product04.jpg');"></div>
+                <div class="product-info">
+                    <h2 class="product-title">หมึกกระดอง</h2>
+                    <p class="product-price">฿ 420</p>
+                    <p class="product-description">ราคาอาจเปลี่ยนแปลงตามน้ำหนักของสินค้า</p>
+                    <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image" style="background-image: url('image/product/product05.jpg');"></div>
+                <div class="product-info">
+                    <h2 class="product-title">หมึกศอก</h2>
+                    <p class="product-price">฿ 350</p>
+                    <p class="product-description">ราคาอาจเปลี่ยนแปลงตามน้ำหนักของสินค้า</p>
+                    <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+                </div>
+            </div>
+        </div>
+    </body>    
+
+</html>
+
+``
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+<img width="1145" alt="Screenshot 2568-03-07 at 15 10 23" src="https://github.com/user-attachments/assets/349f3b87-49cc-41c0-a399-de6d00de330f" />
+<img width="927" alt="Screenshot 2568-03-07 at 15 10 30" src="https://github.com/user-attachments/assets/9154a282-5450-462f-8fa6-02c897be452d" />
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
