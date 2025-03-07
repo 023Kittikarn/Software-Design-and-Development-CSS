@@ -426,7 +426,6 @@ background-size: cover;
 ### ผลการทดลอง
 ```html
 [วางโค้ดที่นี่]
-`
 html
 <!DOCTYPE html>
 <html>
@@ -552,7 +551,7 @@ html
 
 </html>
 
-``
+```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
 <img width="1145" alt="Screenshot 2568-03-07 at 15 10 23" src="https://github.com/user-attachments/assets/349f3b87-49cc-41c0-a399-de6d00de330f" />
 <img width="927" alt="Screenshot 2568-03-07 at 15 10 30" src="https://github.com/user-attachments/assets/9154a282-5450-462f-8fa6-02c897be452d" />
